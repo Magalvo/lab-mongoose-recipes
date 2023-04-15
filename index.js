@@ -6,7 +6,7 @@ const Recipe = require('./models/Recipe.model');
 const data = require('./data.json');
 
 const MONGODB_URI =
-  'mongodb+srv://diogomagalhaescalvo:i7MY89D9oQbZ9mQCSVy@ironhack.vrshken.mongodb.net/test';
+  'mongodb+srv://user:password@ironhack.vrshken.mongodb.net/test';
 async function updateDatabase() {
   // Connection to the database "recipe-app"
   try {
